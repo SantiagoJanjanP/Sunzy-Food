@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.body2 {
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f3f3f3;
+    position: relative;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container2 {
+    background-color: #fff;
+    position: relative;
+    max-width: 1000px;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 20px 15px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.body1 .container2 .head {
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    color: #333;
+}
+
+.body1 .container2 .head::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 3px;
+    width: 27px;
+    border-radius: 8px;
+    background-color: #4070f4;
+}
+
+.container2 form {
+    position: relative;
+    margin-top: 16px;
+    background-color: #fff;
+}
+
+.container2 form .details {
+    margin-top: 20px;
+}
+
+.container2 form .title {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 6px 0;
+    color: #272727;
+}
+
+.error {
+    background: #fff;
+    color: #a94442;
+    padding: 10px;
+    width: 90%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+
+.container2 form .fields2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+form .fields .input-fieldf {
+    display: flex;
+    width: calc(100% / 1 - 15px);
+    flex-direction: column;
+    margin: 4px 0;
+}
+
+.input-fieldf label {
+    font-size: 13px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.input-fieldf input {
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 55px;
+    margin-right: 200px;
+    width: 100%;
+}
+.container2 form button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    max-width: 395px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    margin: 25px 0;
+    background-color: #4070f4;
+    transition: all 0.3s linear;
+    cursor: pointer;
+  }
+  
+form button:hover {
+    background-color: #265df2;
+  }
+
+
+.input-field3 input:is(:focus, :valid) {
+    box-shadow: 0 3px 6px rgba(151, 115, 115, 0.13);
+}
+
+@media (max-width: 760px) {
+    .form .fields .input-field3 {
+        width: calc(100% / 2 - 15px);
+    }
+
+
+}

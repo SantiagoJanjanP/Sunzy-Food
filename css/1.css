@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+.heading {
+  font-size: 5vw; /* Responsive font size based on viewport width */
+  color: rgb(0, 0, 0);
+  text-align: center; /* Center align heading */
+}
+
+.heading span {
+  font-style: italic;
+  font-size: 2vw; /* Responsive font size based on viewport width */
+}
+
+.profiles {
+  display: flex;
+  justify-content: space-around;
+  margin: 2vw 5vw; /* Responsive margin based on viewport width */
+  flex-wrap: wrap; /* Allow profiles to wrap on smaller screens */
+}
+
+.profilee {
+  flex-basis: 30vw; /* Responsive width based on viewport width */
+  text-align: center;
+  padding: 1vw; /* Responsive padding based on viewport width */
+}
+
+.profilee:hover {
+  background-color: #b9b9b9;
+  color: black;
+  padding: 0.5vw; /* Responsive padding based on viewport width */
+  transition: background-color 0.3s ease-in-out; /* Smooth transition */
+  border-radius: 1.2vw; /* Responsive border radius based on viewport width */
+}
+
+.profilee .profilee-img {
+  height: 20vw; /* Responsive height based on viewport width */
+  width: 20vw; /* Responsive width based on viewport width */
+  border-radius: 10%; /* Fixed border radius */
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: filter 0.4s ease-in-out; /* Smooth transition */
+}
+
+.profilee:hover .profilee-img {
+  filter: grayscale(0);
+}
+
+.user-name {
+  margin-top: 3vw; /* Responsive margin based on viewport width */
+  font-size: 2.5vw; /* Responsive font size based on viewport width */
+}
+
+.profilee h5 {
+  font-size: 1vw; /* Responsive font size based on viewport width */
+  font-weight: 100;
+  letter-spacing: 0.3vw; /* Responsive letter spacing based on viewport width */
+  color: #000000;
+}
+
+.profilee h5:hover {
+  background-color: #ffffff;
+}
+
+.profilee p {
+  font-size: 1vw; /* Responsive font size based on viewport width */
+  margin-top: 2vw; /* Responsive margin based on viewport width */
+  text-align: justify;
+  font-style: italic;
+}
+
+@media only screen and (max-width: 768px) {
+  .heading {
+    font-size: 6vw; /* Adjusted font size for smaller screens */
+  }
+
+  .heading span {
+    font-size: 3vw; /* Adjusted font size for smaller screens */
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .profilee {
+    flex-basis: 80vw; /* Adjusted width for smaller screens */
+  }
+
+  .profilee .profilee-img {
+    height: 40vw; /* Adjusted height for smaller screens */
+    width: 40vw; /* Adjusted width for smaller screens */
+  }
+
+  .user-name {
+    margin-top: 5vw; /* Adjusted margin for smaller screens */
+  }
+
+  .profilee p {
+    font-size: 3vw; /* Adjusted font size for smaller screens */
+    margin-top: 4vw; /* Adjusted margin for smaller screens */
+  }
+}
