@@ -1,6 +1,5 @@
 # Sunzy-Food
 SunzyFood E-commerce 
-"# Sunzy-Food" 
 
 ADVISER: Prof. Romeo Flor 
 
@@ -15,6 +14,9 @@ SANTIAGO, JAN-JAN P.
 PALOMARES, SHAINE IVY P.
 TONIO, MARK
 VIVAS, LEANNE
+
+"# Sunzy-Food" 
+
 
 
 STEP 1: HOW TO SETUP THE DATABASE
