@@ -64,7 +64,7 @@ STEP 2: HOW TO OPEN THE WEBSITE
 
 
 --> To open the ADMIN PANEL, copy and paste this on the 	
-		browser: 	http://localhost/sparkle/vendor/login.php
+		browser: 	http://localhost/sparkle/admin/
 		
 		    ADMIN ACCOUNT
 
